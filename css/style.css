@@ -448,7 +448,6 @@ h6, .h6 {
   font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
-  color:red ;
 }
 
 @media (max-width: 1200px) {
@@ -3094,6 +3093,11 @@ input[type="button"].btn-block {
     left: auto;
   }
 }
+.overflow-guide{
+  overflow-x: hidden;
+  
+     
+}
 
 .dropup .dropdown-menu {
   top: auto;
@@ -4020,7 +4024,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
+  /* padding-top: 0.3125rem; */
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -7428,7 +7432,7 @@ button.bg-dark:focus {
   margin-right: 1.5rem !important;
 }
 
-.mb-4,
+.mb-4, 
 .my-4 {
   margin-bottom: 1.5rem !important;
 }
@@ -9260,7 +9264,9 @@ button.bg-dark:focus {
   font-style: italic !important;
 }
 
-
+.text-white {
+  color: #fff !important;
+}
 
 .text-primary {
   color: #7AB730 !important;
@@ -9566,9 +9572,12 @@ h6,
     margin-left: -120px;
   }
 }
+.footer-border{
+  border-right: 1px solid white;
+}
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/blog-2.jpg), no-repeat center center;
   background-size: cover;
 }
 
